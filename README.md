@@ -29,12 +29,12 @@ Projetado e Desenvolvido por:    Bruno de Souza
 - **Font Awesome**: Biblioteca de ícones.
 - **Google Maps**: Mapa de centros de reciclagem (NÂO IMPLEMENTADO, imagem estática momentaneamente).
 
-## Como Rodar o Projeto Localmente
+## Como executar o Projeto 
 
 1. **Utilizando GithubPages**:
     - Acesse em: https://gbrunowc.github.io/Reciclar-futuro/.
 
-2. **Clone o repositório**:
+2. **Clone o repositório** (localmente):
     ```bash
     git clone https://github.com/seu-usuario/reciclar-e-futuro.git
     ```
