@@ -3,6 +3,10 @@
 ## Descrição
 O projeto **"Reciclar é Futuro"** criar uma página web informativa sobre a importância da reciclagem. A página contém informações sobre os benefícios da reciclagem, um mapa interativo para encontrar centros de reciclagem próximos, e um formulário de login e cadastro para incentivar o engajamento com a causa. O projeto foi desenvolvido com as ferramentas **HTML**, **CSS** e **Font Awesome** para os ícones.
 
+Projetado e Desenvolvido por:    Bruno de Souza
+
+
+
 ## Funcionalidades
 
 - **Página Inicial**:
@@ -35,7 +39,10 @@ O projeto **"Reciclar é Futuro"** criar uma página web informativa sobre a imp
     git clone https://github.com/seu-usuario/reciclar-e-futuro.git
     ```
 
+## Contato
 
+- **Nome**: Bruno de Souza
+- **Email**: [bruno.2003@alunos.utfpr.edu.br](mailto:bruno.2003@alunos.utfpr.edu.br)
 
 
 
