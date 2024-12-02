@@ -28,7 +28,7 @@ O projeto **"Reciclar é Futuro"** criar uma página web informativa sobre a imp
 ## Como Rodar o Projeto Localmente
 
 1. **Utilizando GithubPages**:
-    - Acesse: .
+    - Acesse em: https://gbrunowc.github.io/Reciclar-futuro/.
 
 2. **Clone o repositório**:
     ```bash
