@@ -1,0 +1,330 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+
+header {
+    text-align: center;
+    background-image: url('../figs/cabecalho.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    color: rgb(0, 0, 0);
+    padding: 2em 0;
+    text-shadow: 1px 1px 1px rgb(124, 124, 124);
+}
+
+header .logo h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+}
+
+section#sobre img {
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+
+#sobre img, .beneficios-img, #mapa {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 10px;
+}
+   
+    
+#beneficios ul li i {
+    margin-right: 10px;  
+    color: #4CAF50;   
+    font-size: 1.3em;   
+}
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer a[href="curriculo.html"] {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FF6F00; 
+}
+
+
+
+
+
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;/* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Corpo da Página */
+    body {
+        font-family: "Roboto", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #A8D08D; /* Verde claro */
+    }
+    
+    /* Cabeçalho */
+    header {
+        background-image: url('images/fundo-cabecalho.jpg'); /* Imagem de fundo do cabeçalho */
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 2em 0;
+        text-align: center;
+    }
+    
+    header .logo h1 {
+        font-size: 2.5em;
+        text-transform: uppercase;
+    }
+    
+    header nav ul {
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    header nav ul li a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Seções */
+    section {
+        padding: 2em 0;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    
+    h2 {
+        font-family: "Merriweather", serif;
+        font-weight: 600;
+        background-color: #EEFF00; /* Amarelo brilhante */
+        padding: 0.5em;
+        color: #2E7D32; /* Verde escuro */
+        border-radius: 5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    /* Imagens nas Seções */
+    #sobre img, .beneficios-img, #mapa {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    /* Mapa */
+    #mapa {
+        border-style: solid;
+        border-width: 5px;
+        border-color: #4CAF50; /* Bordas verdes */
+    }
+    
+    /* Rodapé */
+    footer {
+        background-color: #2E7D32; /* Verde escuro */
+        color: white;
+        text-align: center;
+        padding: 1.5em 0;
+    }
+    
+    footer a {
+        color: #FFEB3B; /* Amarelo para o link */
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        color: #FF6F00; /* Laranja no hover */
+    }
+    
+    /* Formulário */
+    .form-container {
+        max-width: 400px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .form-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    .form-container input, .form-container select, .form-container textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .form-container input[type="submit"] {
+        background: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    
+    .form-container input[type="submit"]:hover {
+        background: #45a049;
+    }
+    
+    /* Adicionando Fonte e Estilos de Títulos */
+    .merriweather-light {
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .merriweather-bold {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .merriweather-black {
+        font-family: "Merriweather", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    /* Ajustes Específicos de Links */
+    footer a[href="curriculo.html"] {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    
+    /* Ajuste de texto de alinhamento */
+    p[class="merriweather-light-italic"] {
+        text-align: center;
+        text-shadow: 0px 1px 1px black;
+        text-decoration: underline wavy;
+    }
+    
+}
+
+.form-container input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #45a049;
+}
