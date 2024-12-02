@@ -27,7 +27,7 @@ Projetado e Desenvolvido por:    Bruno de Souza
 - **HTML5**: Estruturação da página e organização do conteúdo.
 - **CSS3**: Estilização da página, incluindo cores, fontes e layout responsivo.
 - **Font Awesome**: Biblioteca de ícones.
-- **Google Maps **: Mapa de centros de reciclagem (NÂO IMPLEMENTADO, imagem estática momentaneamente).
+- **Google Maps**: Mapa de centros de reciclagem (NÂO IMPLEMENTADO, imagem estática momentaneamente).
 
 ## Como Rodar o Projeto Localmente
 
