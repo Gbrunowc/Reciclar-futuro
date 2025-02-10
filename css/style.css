@@ -328,3 +328,82 @@ footer a:hover {
 .form-container input[type="submit"]:hover {
     background: #45a049;
 }
+
+/* Estilo do formulário */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button[type="submit"] {
+    background: #4CAF50;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: #45a049;
+}
+
+button#limparCampos, button#limparLista {
+    background: #d32f2f;
+    color: white;
+    margin-top: 10px;
+}
+
+button#limparCampos:hover, button#limparLista:hover {
+    background: #b71c1c;
+}
+
+/* Estilo da lista de usuários */
+#userList {
+    list-style: none;
+    padding: 0;
+}
+
+#userList li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.delete-button {
+    background: #d32f2f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background: #b71c1c;
+}
